@@ -1,3 +1,38 @@
 .container_gap {
     margin-top: 200px;
 }
+
+#car {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width:575px) {
+    #register {
+        display: none;
+    }
+
+    .courses {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #success {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #info {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #join {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #section-trust {
+        display: none;
+    }
+}

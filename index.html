@@ -15,15 +15,15 @@
 <body>
     <!-- start nav -->
     <section class="container my-5">
-        <div class="d-flex  flex-row justify-content-between ">
+        <div class="d-flex  flex-row justify-content-between fixed-top bg-white">
             <div>
-                <a class="navbar-brand" href="#"><img style="height: 70px;width: 250px;" src="images/tr-logo-large.png"
+                <a class="navbar-brand " href="#"><img style="height: 70px;width: 250px;" src="images/tr-logo-large.png"
                         alt=""></a>
             </div>
             <div class="d-flex flex-row justify-content-between flex-lg-row flex-md-row-reverse gx-5">
                 <div class=" align-items-center ">
 
-                    <nav class="navbar navbar-expand-lg ">
+                    <nav class="navbar  navbar-expand-lg ">
                         <div class="container-fluid">
 
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,20 +37,20 @@
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
                                     <li class="nav-item me-lg-5">
-                                        <a class="nav-link" href="#">Courses</a>
+                                        <a class="nav-link" href="#Courses">Courses</a>
                                     </li>
 
                                     <li class="nav-item me-lg-5">
-                                        <a class="nav-link disabled">Deals</a>
+                                        <a class="nav-link " href="#Deals">Deals</a>
                                     </li>
                                     <li class="nav-item me-lg-5">
-                                        <a class="nav-link disabled">Success</a>
+                                        <a class="nav-link " href="#Success">Success</a>
                                     </li>
                                     <li class="nav-item me-lg-5">
-                                        <a class="nav-link disabled">About</a>
+                                        <a class="nav-link " href="#About">About</a>
                                     </li>
                                     <li class="nav-item me-lg-5">
-                                        <a class="nav-link disabled">Register</a>
+                                        <a class="nav-link " href="#Register">Register</a>
                                     </li>
                                 </ul>
 
@@ -60,7 +60,8 @@
                 </div>
                 <div>
                     <form class="d-flex  mt-2" role="search">
-                        <button class="btn btn-outline-info " type="submit"><strong>Register</strong></button>
+                        <button class="btn btn-outline-info " id="register"
+                            type="submit"><strong>Register</strong></button>
                     </form>
                 </div>
             </div>
@@ -68,7 +69,7 @@
     </section>
     <!-- nav end -->
     <!-- start Carosuel -->
-    <section class="container ">
+    <section class="container " id="car">
         <div id="carouselExampleCaptions" class="carousel  slide" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -123,7 +124,7 @@
     </section>
     </header>
     <main>
-        <section class="container container-fluid my-5 gy-5">
+        <section class="container container-fluid container_gap" id="Courses">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div>
                     <h2><b>Discover Our Popular Courses</b></h2>
@@ -137,12 +138,12 @@
             </div>
         </section>
         <!-- Courses start -->
-        <section class="container container_gap">
+        <section class="container container_gap" id="Deals">
             <div class="container ">
                 <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 gx-lg-4 gy-lg-4 gy-md-4 gy-sm-4">
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-1.png" class="img-fluid" alt="">
                             </div>
@@ -156,7 +157,7 @@
                     </div>
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-2.png" class="img-fluid " alt="">
                             </div>
@@ -170,7 +171,7 @@
                     </div>
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-3.png" class="img-fluid " alt="">
                             </div>
@@ -184,7 +185,7 @@
                     </div>
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-4.png" class="img-fluid " alt="">
                             </div>
@@ -198,7 +199,7 @@
                     </div>
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-5.png" class="img-fluid " alt="">
                             </div>
@@ -212,7 +213,7 @@
                     </div>
                     <div class="col ">
                         <div
-                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded">
+                            class="d-flex flex-lg-row flex-md-row flex-sm-column justify-content-between align-items-center bg-light border rounded courses">
                             <div>
                                 <img src="images/course/course-5.png" class="img-fluid " alt="">
                             </div>
@@ -236,19 +237,21 @@
         </section>
         <!-- Courses end -->
         <!-- info start -->
-        <section class="container  container_gap">
-            <div class="d-flex  align-items-center border rounded my-5" style="background-color: #F4FAFD;">
+        <section class="container  container_gap" id="About">
+            <div class="d-flex flex-lg-row flex-md-column flex-sm-column  align-items-center border rounded my-5"
+                style="background-color: #F4FAFD;" id="info">
                 <div>
                     <img src="images/working.png" class="img-fluid" alt="">
                 </div>
                 <div class=" d-flex justify-content-center align-items-center ms-5 overflow-hidden"
-                    style="height:40rem ; width:35rem; ">
+                    style="height:40rem ; width:100%; ">
                     <div>
                         <h2 class="text-b">Explore The elearning Institute</h2>
                         <p>87% of people learning for professional development report career benefits like getting a
                             promotion, a raise, or starting a new career</p>
 
-                        <div class="d-flex justify-content-between">
+                        <div
+                            class="d-flex justify-content-lg-between justify-content-md-evenly justify-content-sm-evenly">
                             <div>
                                 <h2 class="text-b">3.2K+</h2>
                                 <p>Online Course</p>
@@ -270,8 +273,9 @@
         </section>
         <!-- info end -->
         <!-- join start -->
-        <section class="container container_gap">
-            <div class="d-flex justify-content-evenly align-items-center rounded bg-info" style="height:20rem ;">
+        <section class="container container_gap" id="Register">
+            <div class="d-flex flex-lg-row flex-md-column flex-sm-column justify-content-evenly align-items-center rounded bg-info "
+                style="height:20rem ;" id="join">
                 <div style="height:9rem ;width:30rem;">
                     <h2 class="text-b text-white">Ready To Join?</h2>
                     <p class=" text-white">Some quick example text to build on the card title and make up the bulk of
@@ -308,14 +312,14 @@
         </section>
         <!-- join end -->
         <!-- success start -->
-        <section class="container container_gap">
+        <section class="container container_gap" id="Success">
             <div class="my-5">
                 <div class="mb-5">
                     <h2 class="text-b">Meet Our Successfull Student</h2>
                     <p>Meet some of our successfull student.</p>
                 </div>
 
-                <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 g-4 ">
+                <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 g-4 " id="success">
                     <div class="col">
                         <div class="card">
                             <img src="images/student/student-1.png" class="card-img-top" alt="...">
@@ -375,8 +379,8 @@
                 <div class="carousel-inner ">
                     <div class="carousel-item active ">
                         <div class="container px-4 ">
-                            <div class="row gx-5">
-                                <div class="col">
+                            <div class="row  gx-5 gy-md-5">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -399,7 +403,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -428,7 +432,7 @@
                     <div class="carousel-item active ">
                         <div class="container px-4 ">
                             <div class="row gx-5">
-                                <div class="col">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -451,7 +455,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -480,7 +484,7 @@
                     <div class="carousel-item active ">
                         <div class="container px-4 ">
                             <div class="row gx-5">
-                                <div class="col">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -503,7 +507,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-lg row">
                                     <div class="p-3 border rounded bg-light">
                                         <div class="d-flex ">
                                             <div class="mb-4">
@@ -632,7 +636,7 @@
         </section>
         <!-- FAQ end -->
         <!-- trusted start -->
-        <section class="container container_gap">
+        <section class="container container_gap d-lg-block d-md-none d-sm-none d-sm-none " id="section-trust">
             <h2 class="text-b text-center">Trusted by over 800+ companies</h2>
             <div class="d-flex justify-content-evenly mt-5">
                 <div><img src="images/company/company-1.png" class="img-fluid" alt=""></div>
